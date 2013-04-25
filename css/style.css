@@ -75,7 +75,8 @@ button {  width: auto; overflow: visible; }
 
 body, select, input, textarea {  color: #444; }
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
-a, a:active, a:visited { color: #0C707E; }
+a:active { color: #D2EEF3; } 
+a, a:visited { color: #D2EEF3; }
 a:hover { color: #06464C; }
 nav a:hover { color: #D2EEF3; }
 
@@ -116,11 +117,18 @@ h2, h3{
 
 #title{
 	font-size: 50px;
-	color:white;
+	color: white;
 	padding-top:35px;
 	float:left;
 }
 
+/*#titleDescription{
+	font-size: 20px;
+	color: black;
+	padding-top:85px;
+	float:left;
+}
+*/
 h2{
 	font-size: 55px;
 }
@@ -186,6 +194,10 @@ table{
 .serviceprice{
 	font-size: 16px;
 	text-align: left;
+}
+
+#salonMap{
+	text-align: right;
 }
 
 #main aside p { width:180px; font-size:13px; }
@@ -284,7 +296,7 @@ article header{
 @media print {
   * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
   -ms-filter: none !important; } 
-  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a, a:visited { color: #FF5E99 !important; text-decoration: underline; }
   a[href]:after { content: " (" attr(href) ")"; }
   abbr[title]:after { content: " (" attr(title) ")"; }
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  
